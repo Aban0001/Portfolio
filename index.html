@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="portfolio.css" />
+    <link rel="stylesheet" href="layout.css" />
+    <link rel="stylesheet" href="menu.css" />
+    <link rel="stylesheet" href="color.css" />
+    <link rel="stylesheet" href="fonts.css" />
+    <!-- SVG favicon (moderne browsere) -->
+    <link rel="icon" type="image/svg+xml" href="favicon_io/VectorFavicon.svg" />
+
+    <!-- PNG fallback (ældre browsere) -->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png" />
+
+    <!-- Apple Touch Icon (iOS) -->
+    <link rel="apple-touch-icon" href="favicon_io/apple-touch-icon.png" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <a href="/">
+          <img src="favicon_io/VectorFavicon.svg" alt="AA logo" />
+        </a>
+      </div>
+
+      <nav>
+        <strong>
+          <ul class="menu">
+            <li><a href="index.html" class="knap active">Forside</a></li>
+            <li><a href="portfolio.html" class="knap">Portfolio</a></li>
+            <li><a href="ommig.html" class="knap">Om Mig</a></li>
+          </ul>
+        </strong>
+        <button class="burger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <video class="hero-video" autoplay muted loop playsinline>
+          <source src="Billeder/herovideo.mp4" type="video/mp4" />
+        </video>
+
+        <h1 class="hero-title">DESIGN & DIGITALE OPLEVELSER</h1>
+      </section>
+
+      <section class="intro">
+        <div class="intro-text">
+          <h2>Hej, jeg hedder Abdulkarim Anzuluni</h2>
+          <p>Jeg er multimediedesign studerende med interesse for web, UI/UX og digitalt design. Jeg arbejder struktureret med både æstetik og funktionalitet og har fokus på at skabe løsninger, der giver mening for brugeren.</p>
+          <p>På dette website kan du udforske udvalgte projekter og opgaver fra mit 1. semester på multimediedesign, hvor jeg arbejder med designprocessen fra idé og koncept, til færdige brugervenlige digitale løsninger.</p>
+        </div>
+
+        <div class="intro-image">
+          <img src="Billeder/intro-process-icons.svg" alt="Designproces fra idé til færdigt resultat" />
+        </div>
+      </section>
+
+      <section>
+        <div class="cta-row">
+          <strong>
+            <!-- Linking to my specific guides on my pages -->
+            <a href="portfolio.html" class="button">Min Portfolio</a>
+            <a href="ommig.html" class="button">Om Mig</a>
+          </strong>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 Abdulkarim Anzuluni</p>
+      <p>Kontakt Mig:</p>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/abdulkarim.anzuluni/" target="_blank" aria-label="Facebook">
+          <img src="social-icons/facebook copy.svg" alt="Facebook logo" />
+        </a>
+        <a href="https://www.instagram.com/abdulkarim.d.a/" target="_blank" aria-label="Instagram">
+          <img src="social-icons/instagram copy.svg" alt="Instagram logo" />
+        </a>
+        <a href="https://discord.com" target="_blank" aria-label="Discord">
+          <img src="social-icons/discord copy.svg" alt="Discord logo" />
+        </a>
+      </div>
+    </footer>
+    <script src="Javascript/main.js"></script>
+  </body>
+</html>

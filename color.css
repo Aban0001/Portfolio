@@ -1,0 +1,30 @@
+/*----- Color -----*/
+:root {
+  /*---- BAGGRUNDE ----*/
+  --bg-primary: #383838; /* Primær baggrund (dark sections) */
+  --bg-secondary: #d9d3c7; /* Lys neutral (cards, content sections) */
+  --bg-alt: #2f2f2f; /* Mørkere variation til sektion-skift */
+
+  /*---- TEKST ----*/
+  --text-primary: #383838; /* Tekst på lyse baggrunde */
+  --text-inverse: #d9d3c7; /* Tekst på mørke baggrunde */
+  --text-muted: #a8a39a; /* Sekundær / helper text */
+
+  /*---- ACCENT / BRAND ----*/
+  --accent-primary: #f2b705; /* Primær accent (CTA, hover, active) */
+
+  /*---- CTA ----*/
+  --cta-bg: #f2b705;
+  --cta-text: #383838;
+  --cta-hover: #e0aa04; /* Mørkere gul */
+  --cta-active: #c99603; /* Endnu mørkere til klik */
+
+  /*---- UI ELEMENTER ----*/
+  --border-color: #bfb9ae;
+  --divider-color: #cec8bc;
+  --focus-ring: #f2b705;
+
+  /*---- SHADOWS ----*/
+  --shadow-sm: 0 4px 8px rgba(0, 0, 0, 0.25);
+  --shadow-md: 0 10px 24px rgba(0, 0, 0, 0.35);
+}
